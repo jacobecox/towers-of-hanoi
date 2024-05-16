@@ -1,7 +1,10 @@
 var board = [['---', 5, 4, 3, 2, 1],
 ['---'],
-['---']]
+['---']];
 
-var setupBoard = board.join('\n');
+var startingBoard = board.map(function (peg) {
+    board.join('/n')
+    return peg.join('');
+});
 
-console.log(setupBoard);
+console.log(startingBoard);
